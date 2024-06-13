@@ -8,7 +8,7 @@ The code is implemented in [Veins](http://veins.car2x.org) that is a framework o
 This Git repository is linked to our research paper "Analysis of Common Required Metrics for Vehicular Networks". The repository includes all the required files to run the simulations and generate the results in our paper. You can find the instructions below about how to use the code and how to run the simulations to obtain the results presented in our paper. 
 
 If you use this code, we would appreciate a citation of our following work. Thanks !
-- Saleem Y, Mitton N, Loscri V. Analysis of Common Required Metrics for Vehicular Networks. *In International Conference on Wireless Networks and Mobile Communications (WINCOM)*, 2024 Jul 23. [PDF](https://inria.hal.science/hal-04601484/)
+- Saleem Y, Mitton N, Loscri V. Analysis of Common Required Metrics for Vehicular Networks. *In International Conference on Wireless Networks and Mobile Communications (WINCOM)*, 2024 Jul 23. [PDF]([https://inria.hal.science/hal-04601484/](https://inria.hal.science/hal-04601484v1/document))
 
 ## Overview
 The code provided in this repository analyses the number of vehicles over each simulation time, how long vehicles stay connected with other vehicles (contact duration), how long it takes for a vehicle to meet a new neighboring vehicle (time to meet new neighboring vehicle), how much connections of vehicle stay connected for less or more than contact duration and how much vehicles meet new neighboring vehicles before or after time *t*.  
