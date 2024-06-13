@@ -599,7 +599,7 @@ def executeMetricsAnalysisMultipleScenarios():
     baseFolder = '2024-03-01-IrelandUrban-FreeFlow/'
     indvContactDurationFilename1 = baseFolder + 'data-files/' + 'metricsAnalysis-indvContactDurationLog-0.200000mW-IrelandUrban-FreeFlow.csv'   # for contact duration and time of meeting new nb
     perSecondFileName1 = baseFolder + 'data-files/' + 'metricsAnalysis-perSecondNumVehiclesAndNumAvgNbs-0.200000mW-IrelandUrban-FreeFlow.csv' # for number of vehicles over simulation time
-    scenarioDict[scenario1] = [baseFolder, indvContactDurationFilename1, perSecondFileName1, scenario1Prefix]
+    # scenarioDict[scenario1] = [baseFolder, indvContactDurationFilename1, perSecondFileName1, scenario1Prefix]
     
     
     scenario2 = "Ireland Urban (Dublin City Centre) (Rush Hours)"
