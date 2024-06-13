@@ -50,6 +50,7 @@ void Mac1609_4::initialize(int stage)
         ASSERT(simTime().getScaleExp() == -12);
 
         txPower = par("txPower").doubleValue();
+        bitrate = par("bitrate");
         setParametersForBitrate(par("bitrate"));
 
         // unicast parameters
@@ -531,6 +532,15 @@ void Mac1609_4::setTxPower(double txPower_mW)
 {
     txPower = txPower_mW;
 }
+
+double Mac1609_4::getTxPower() {
+    return txPower;
+}
+
+uint64_t Mac1609_4::getBitrate() {
+    return bitrate;
+}
+
 void Mac1609_4::setMCS(MCS mcs)
 {
     ASSERT2(mcs != MCS::undefined, "invalid MCS selected");

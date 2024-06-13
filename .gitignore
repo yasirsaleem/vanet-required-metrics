@@ -4,6 +4,11 @@ src/*.dll
 src/*.dylib
 src/**/*_m.h
 src/**/*_m.cc
+.csettings/*
+language.settings.xml
+*.csv
+*.sca
+scripts/*/
 
 doc/doxy
 doc/neddoc

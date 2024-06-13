@@ -161,6 +161,12 @@ public:
      */
     void setTxPower(double txPower_mW);
 
+    void setParametersForBitrate(uint64_t bitrate);
+
+    double getTxPower();
+
+    uint64_t getBitrate();
+
     /**
      * @brief Change the default MCS the NIC card is using
      *
@@ -223,8 +229,6 @@ protected:
     void channelBusySelf(bool generateTxOp);
     void channelIdle(bool afterSwitch = false);
 
-    void setParametersForBitrate(uint64_t bitrate);
-
     void sendAck(LAddress::L2Type recpAddress, unsigned long wsmId);
     void handleUnicast(LAddress::L2Type srcAddr, std::unique_ptr<BaseFrame1609_4> wsm);
     void handleAck(const Mac80211Ack* ack);
@@ -285,6 +289,9 @@ protected:
 
     /** @brief The power (in mW) to transmit with.*/
     double txPower;
+
+    uint64_t bitrate;
+
 
     MCS mcs; ///< Modulation and coding scheme to use unless explicitly specified.
 
