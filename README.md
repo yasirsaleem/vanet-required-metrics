@@ -51,3 +51,7 @@ There is a Python script *process-log-files-and-generate-results.py* (located at
  4. Now execute the script *process-log-files-and-generate-results.py*
  5. You will get all the results in *results* folder. Now, you can view the results.  
  6. Read the Python script to understand how log file is analysed.
+ 
+ ## Contact us
+If you get any question, you can contact Yasir at shaikh.yasir.saleem@gmail.com
+[Yasir's Personal Website](https://www.yasirsaleem.com)
